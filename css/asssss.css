@@ -1,0 +1,148 @@
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.myHome {
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+
+.homeLayer {
+    background-color: rgba(214, 46, 51, 0.6);
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.homeContent h2 {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+#sliderDown h3 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+    background-color: rgba(214, 46, 51, 0.6);
+    padding: 10px;
+    cursor: pointer;
+    margin: 0;
+
+}
+
+.sliderContent {
+    background-color: #ccc;
+    padding: 10px;
+    display: none;
+}
+
+#partyCounter {
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    height: 320px;
+    position: relative;
+}
+
+.counterLayer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+
+}
+
+.counterContent {
+    border: 2px solid white;
+    width: 200px;
+    height: 150px;
+    margin: 25px 10px;
+    margin: auto;
+
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggleFirst {
+    background-color: red;
+}
+
+.form-control {
+    width: 90%;
+    margin: auto;
+    border-radius: 0px;
+}
+
+.myPrag {
+    margin-left: 30px;
+}
+
+.myNav {
+    height: 100vh;
+    width: 12%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+}
+
+.links a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    margin: 15px;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+.links i {
+    margin-left: 100%;
+    padding-top: 20px;
+}
+
+.links i:hover {
+    color: rgb(101, 15, 15);
+
+}
+
+.navIcon {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navIcon i {
+    font-size: 30px;
+    color: #ccc;
+    margin-left: 22px;
+    cursor: pointer;
+}
+
+.links a:hover {
+    color: rgb(101, 15, 15);
+}
